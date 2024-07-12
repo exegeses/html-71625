@@ -1,0 +1,12 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #e8e8e8;
+    margin: 80px;
+    font-family: sans-serif;
+    font-size: 24px;
+}
+h2{
+    margin-top: 40px;
+}
