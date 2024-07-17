@@ -1,0 +1,33 @@
+body{
+    font-family: 'Trebuchet MS', sans-serif;
+}
+#resenias{
+    width: 1200px;
+    height: 360px;
+    margin: auto; /* <-- TENES QUE APRENDER ESTO */
+    background-color: #e0e0e0;
+
+    display: flex;
+    /* distribución en eje X (horizontal) */
+    justify-content: space-around;
+
+    /* distribución en eje Y (vertical) */
+    align-items: center;
+}
+    #resenias article{
+        width: 320px;
+        height: 222px;
+        background-color: #fff;
+        border-radius: 16px;
+
+        box-shadow: 0px 4px 4px hsla(0, 0%, 0%, 0.25);
+
+        text-align: center;
+    }
+        #resenias article img{
+            margin-top: 16px;
+        }
+        #resenias article span{
+            font-size: 24px;
+            font-weight: 600;
+        }

@@ -1,0 +1,14 @@
+
+body{
+    font-family: Trebuchet MS;
+    color: #fff;
+    font-size: 32px;
+
+    background-image: url(../imgs/road.jpg);
+    background-size: cover;
+    /* background-position: center bottom;     */
+}
+main{
+    width: 768px;
+    margin: 80px auto;
+}
