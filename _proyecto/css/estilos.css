@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+/* reseteo */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Figtree", sans-serif;
+    color: #0B1E46;
+}
+
+header{
+    background-color: #5B86E5;
+}
+    header div{
+        width: 1100px;
+        height: 104px;
+        margin: auto;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+/* barra de navegación */
+    header div nav a{
+        margin: 8px;
+        color: #fff;
+        font-size: 20px;
+        text-decoration: none; /* quitar el subrayado */
+    }
+
+/* main */
+main{
+    min-height: 600px;
+}
+
+/* hero-banner */
+#hero-banner{
+/*
+* Created with https://www.css-gradient.com
+* Gradient link: https://www.css-gradient.com/?c1=5b86e5&c2=37d2dc&gt=l&gd=dtt
+*/
+    background: #5B86E5;
+    background: linear-gradient(180deg, #5B86E5, #37D2DC);
+}
+    #hero-banner div{
+        width: 1100px;
+        height: 680px;
+        margin: auto;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+        #hero-banner div article{
+            width: 478px;
+            color: #fff;
+        }
+            #hero-banner div article h1{
+                font-size: 24px;
+                font-weight: normal;
+                margin-bottom: 40px;
+            }
+            #hero-banner div article h2{
+                font-size: 40px;
+            }
+
+            
