@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #494949;
+    color: #fff;
+    font-family: Trebuchet MS;
+    font-size: 24px;
+}
+main{
+    width: 768px;
+    margin: 64px auto;
+}
+h1, h2{
+    margin: 32px 0px 16px 0px;
+}
+ section{
+    padding: 24px;
+    margin: 24px;
+    background-color: #a2a2a2;
+ }
+ span, a{
+    background-color: #fdc3c3;
+    width: 400px;
+    height: 80px;
+
+    margin: 24px; /* no funciona arriba ni abajo */
+ }
+
+ article{
+    background-color: #fdc3c3;
+    width: 400px;
+    height: 80px;
+ }
+ img{
+    width: 104px;
+ }
