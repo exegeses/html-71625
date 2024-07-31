@@ -154,7 +154,9 @@ main{
             display: block;
             width: 288px;
             padding: 8px 16px;
-            margin-top: 252px;
+            margin: 252px auto 0 auto;
+            border-right: 32px solid #07B2FF;
+            border-radius: 8px;
             background-color: #fff;
             text-decoration: none;
         }
@@ -163,9 +165,78 @@ main{
                 font-size: 16px;
                 font-weight: 400;
             }
+            #portfolio a span{
+                display: block;
+                margin-top: 8px;
+                font-size: 24px;
+                font-weight: 600;
+                color: #0B1E46;
+            }
 
-        
+/* sección contacto */        
+    form{
+        width: 648px;
+        margin: 72px auto 0 auto;
+        padding: 44px 84px;
+        background-color: #CCEFFF;
+        border-radius: 16px;
+    }
+        form input, 
+        form textarea
+        {
+            width: 100%;
+            margin-bottom: 32px;
+            padding: 11px 16px;
+            border-radius: 8px;
+            border: none;
+            border-left: 12px solid #07B2FF;
 
+            box-shadow: 0px 4px 4px hsla(0, 0%, 55%, .25);
+
+            font-family: Figtree, sans-serif;
+            font-size: 16px;
+            color: #0B1E46;
+        }
+        form input::placeholder,
+        form textarea::placeholder
+        {
+            font-family: Figtree, sans-serif;
+            font-size: 16px;
+            color: #0B1E46;
+        }
+        form textarea{
+            height: 160px;
+            resize: none;
+        }
+
+        form button{
+            width: 160px;
+            padding: 11px;
+            border: none;
+            background-color: #07B2FF;
+            border-radius: 8px;
+            box-shadow: 0px 4px 4px hsla(0, 0%, 55%, .25);
+            font-family: Figtree, sans-serif;
+            font-size: 16px;
+            color: #fff;
+        }
+
+        #direccion{
+            width: 648px;
+            height: 200px;
+            margin: 72px auto 0 auto;
+            background-color: #F5FCFF;
+            border-bottom: 8px solid #07B2FF;
+            border-radius: 8px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+        }
+            #direccion article{
+                width: 142px;
+
+            }
 
 /* footer */        
 footer{
