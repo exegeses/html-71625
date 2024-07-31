@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Trebuchet MS;
+    font-size: 20px;
+    background-color: hsl(150, 80%, 6%);
+    color: hsl(150, 80%, 86%);;
+}
+    main{
+        width: 768px;
+        margin: 32px auto;
+    }
+    #container{
+        height: 400px;
+        background-color: hsl(150, 60%, 4%);
+        margin: 24px 0px;
+
+        display: flex;
+        flex-wrap: wrap;
+    }
+        #container article{
+            width: 128px;
+            height: 128px;
+            background-color: hsl(150, 30%, 50%);
+            color: hsl(150, 60%, 4%);;
+            border: 2px solid #333;
+        }
